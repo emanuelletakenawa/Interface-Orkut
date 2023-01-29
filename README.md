@@ -15,7 +15,7 @@
 <hr>
 
 ## 📜Sobre
-Essa é uma interface que eu criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. <br>
+Essa é uma interface que criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. <br>
 O projeto foi baseado na rede social **Orkut** e consiste em uma interface do usuário
 
 
@@ -26,6 +26,12 @@ O projeto foi baseado na rede social **Orkut** e consiste em uma interface do us
 - HTML5
 - CSS
 - JAVASCRIPT
+
+<hr>
+
+## 🖇️Para acessar o layout no Figma
+
+[Clique aqui](https://www.figma.com/file/Xosmfdpq1fCxPVYj8gCdBe/Untitled?node-id=0%3A1&t=xD51d0FlUbofKfsI-1) 
 
 <hr>
 
