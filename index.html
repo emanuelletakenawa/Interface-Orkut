@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyle.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Orkut</title>
+</head>
+<body>
+    <main>
+        <section class="sectionLogo">
+            <figure>
+                <img src="./src/img/orkut.png" alt="logo">
+            </figure>
+            <h2>Entre com seu e-mail</h2>
+            <p>E veja o que seus amigos estão fazendo</p>
+        </section>
+
+        <section class="sectionLogin">
+                <div class="login">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" placeholder="******@gmail.com"/>
+                </div>
+    
+                <div class="login">
+                  <label for="password">Senha</label>
+                  <input type="password" name="password" id="password" placeholder="*******************"/>
+                </div>
+    
+                <div class="morePassword">
+                    <div class="rememberPassword">
+                        <img class="rememberPasswordCheck" id="imgCheck" src="./src/img/check.png" alt="check">
+                        <p>Lembrar senha</p>
+                    </div>
+                    <a href="#" id="forgot">Esqueceu a senha?</a>
+                </div>
+                
+                <button class="btnEnter" onclick="enter()">Entrar</button>
+        </section>
+
+        <section class="moreOptions">
+            <div class="or">
+                <img src="./src/img/line.png">
+                <p>ou</p>
+                <img src="./src/img/line.png">
+            </div>
+
+            <div>
+                <button class="loginAccount"><img src="./src/img/icons/linkedin-icon.png">Entrar com linkedin</button>
+                <button class="loginAccount"><img src="./src/img/icons/google-icon.png">Entrar com Google</button>
+                <button class="loginAccount"><img src="./src/img/icons/apple-icon.png">Entrar com Apple</button>
+            </div>
+
+            <div class="registration">
+                <p>Ainda não tem uma conta? <button class="btnRegistration" id="btnCadastrar">Cadastre-se</button> </p>
+            </div>
+        </section>
+
+    </main>
+
+    <dialog id="modalCadastro">
+        <div class="divModal">
+          <div class="modal">
+            <h2>Cadastro</h2>
+            <button id="closeModal"> x </button>
+          </div>
+  
+            <label for="name">Nome</label>
+            <input id="name" name="name:" type="text" required="true" placeholder="Digite seu nome">
+            
+            <label for="email">E-mail</label>
+            <input id="email" name="email:" type="text" required="true" placeholder="Digite seu email">
+            
+            <label for="password">Senha</label>
+            <input id="password" name="Senha:" type="password" required="true" placeholder="Digite sua senha">
+  
+            <button class="btnEnter" type="submit" onclick="enter()">Cadastrar</button>
+  
+        </div>  
+      </dialog>
+
+      <dialog id="modalPassword">
+        <div class="divModal">
+          <div class="modal">
+            <h2>Resgatar senha</h2>
+            <button id="closeModal"> x </button>
+          </div>
+  
+            <label class="labelForgot" for="password">Insira o seu email ou o seu telefone e enviaremos um código para você voltar a acessar a sua conta.</label>
+            <input id="password" name="email/cel:" type="text" required="true" placeholder="Digite seu email ou telefone">
+  
+            <button class="btnEnter" type="submit" onclick="enter()">Enviar código</button>
+  
+        </div>  
+      </dialog>
+
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>

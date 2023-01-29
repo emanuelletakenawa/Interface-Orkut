@@ -1,0 +1,233 @@
+body{
+    background-color: var(--background);
+    padding: 60px;
+}
+
+main{
+    width: 320px;
+    height: 568px;
+    background-color: var(--blue-100);
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.sectionLogo{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionLogo > h2{
+    color:var(--gray-500);
+    font-size: 27px;
+    margin-top: -8px;
+}
+
+.sectionLogo > p{
+    margin-bottom: 10px ;
+    margin-top: -15px;
+    font-size: 15px;
+    color: var(--gray-400);
+}
+
+.sectionLogin{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.login{
+    font-size: 14px;
+    color: var(--gray-700);
+    margin-top: 10px;
+}
+
+.login > input{
+    background-color: var(--blue-100);
+    font-size: 12px;
+    width: 255px;
+    height: 29px;
+    border: 1px solid var(--border-input);
+    border-radius: var(--radius-default);
+    color: var(--gray-400);
+    padding-left:10px ;
+}
+
+.login > input:focus{
+    background-color: var(--pink-100);
+}
+
+.morePassword{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.rememberPassword{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color:var(--gray-400);
+}
+
+.rememberPasswordCheck{
+    background-color: var(--gray-500);
+    padding: 2px 1px;
+    border-radius: var(--radius-default);
+    margin-right:3px;
+    cursor: pointer;
+}
+
+.rememberPasswordCheckTrue{
+    background-color: var(--pink-500);
+    padding: 2px 1px;
+    border-radius: var(--radius-default);
+    margin-right:3px;
+    cursor: pointer;
+}
+
+.morePassword > a{
+    color:var(--pink-500);
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.btnEnter{
+    background-color: var(--pink-500);
+    color:var(--white);
+    font-size: 16px;
+    width: 255px;
+    height: 29px;
+    margin-top: 20px;
+    border-radius: var(--radius-default);
+    cursor: pointer;
+}
+
+.btnEnter:hover{
+    background-color: var(--pink-100);
+    color:var(--gray-500);
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    font-size: 13.5px;
+    color: var(--gray-400);
+}
+
+.loginAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 255px;
+    height: 29px;
+    opacity: 0.8;
+    border: 1px solid var(--border);
+    box-shadow: 0px 2px 6px 1px var(--gray-400)4d;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.loginAccount > img{
+    margin-right: 10px;
+}
+
+.loginAccount:hover{
+    background-color: var(--pink-100);
+}
+
+.registration{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    font-size: 12px;
+    color: var(--gray-400);
+}
+
+.btnRegistration{
+    color: var(--pink-500);
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnRegistration:hover{
+    color: var(--pink-500);
+}
+
+dialog{
+    width: 300px;
+    height: 335px;
+    background-color: var(--blue-100);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-default);
+    margin: auto;
+}
+
+.modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.modal > h2{
+    color:var(--gray-500);
+    font-size: 27px;
+}
+  
+.modal > button{
+    font-size: 25px;
+    margin-right: 3px;
+    color:var(--gray-500);
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal > button:hover{
+    color:var(--pink-500);
+}
+  
+.divModal{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+  
+.divModal > label{
+    font-size: 13px;
+    padding-top: 10px;
+}
+  
+.divModal > input{
+    background-color: var(--blue-100);
+    font-size: 12px;
+    width: 255px;
+    height: 29px;
+    border: 1px solid var(--border-input);
+    border-radius: var(--radius-default);
+    color: var(--gray-400);
+    padding-left:10px ;
+}
+  
+.divModal > input:focus{
+    background-color: var(--pink-100);
+}
+
+.labelForgot{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+    text-align: center;
+    margin-left: 29px;
+}
+  
+

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Roboto&display=swap');
+
+*{
+    font-family: "Jaldi", sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+
+    --blue-100: #E7ECF6;
+
+    --pink-100:#f3cce0;
+    --pink-500: #ED2590;
+
+    --gray-400: #656464;
+    --gray-500:#515151;
+    --gray-700: #0A0A0AD6;
+
+    --background: #4A4446;
+    --border: #df307a70;
+    --border-input: #c719a12b;
+
+    --radius-default: 2px;
+
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
