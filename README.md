@@ -15,6 +15,8 @@
 <hr>
 
 ## 📜Sobre
+Essa é uma interface que eu criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. <br>
+O projeto foi baseado na rede social **Orkut** e consiste em uma interface do usuário
 
 
 
@@ -27,5 +29,6 @@
 
 <hr>
 
-## 🧡Autora
+## 💗Autora
 - [@emanuelletakenawa](https://github.com/emanuelletakenawa)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuelle-takenawa-32b6a1257)
