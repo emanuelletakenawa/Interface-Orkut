@@ -25,7 +25,7 @@ O projeto foi baseado na rede social **Orkut** e consiste em uma interface do us
 ## 👩🏻‍💻Tecnologias utilizadas
 - HTML5
 - CSS
-- JAVASCRIPT (DOM)
+- JAVASCRIPT
 
 <hr>
 
