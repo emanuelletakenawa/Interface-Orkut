@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="https://i.ibb.co/Mh95ssq/Captura-de-tela-20230123-200031.png" alt="Captura-de-tela-20230123-200031" width=500 >
+    <img src="https://i.ibb.co/V9Bw04L/Captura-de-tela-20230129-215635.png" alt="Captura-de-tela-20230129-215635" />
 </h1>
 
 
@@ -15,9 +15,17 @@
 <hr>
 
 ## 📜Sobre
-Essa é uma interface que criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. <br>
-O projeto foi baseado na rede social **Orkut** e consiste em uma interface do usuário
+O projeto foi baseado na rede social **Orkut** e consiste em uma interface do usuário que criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. 
 
+#### Aqui estão algumas demonstrações:
+- Ao clicar em "Cadastre-se", um modal é aberto para cadastro do usuário;
+- Ao clicar em "Esqueceu a senha?", um modal é aberto  para que o usuário possa resgatar a senha;
+- Selecionando a opção "Lembrar senha", o icon check é marcado.
+
+<h1 align="center">
+<img src="https://i.ibb.co/SvP1kFD/Design-sem-nome-4.png" alt="modal-interface-orkut" > <br>
+<img src="https://i.ibb.co/wWH3N0M/Design-sem-nome-5.png" alt="check-interface-orkut" width=240px height=200px>
+</h1>
 
 
 <hr>
