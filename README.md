@@ -1,5 +1,5 @@
 <h1 align="center">
-     <img src="src/img/orkut.png" alt="logo" width=200>
+     <img src="src/assets/img/orkut.png" alt="logo" width=200>
 </h1>
 
 <h1 align="center">
