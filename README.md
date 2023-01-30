@@ -15,9 +15,9 @@
 <hr>
 
 ## 📜Sobre
-O projeto foi baseado na rede social **Orkut** e consiste em uma interface do usuário que criei pelo Figma e programei incrementando com ``eventos`` e ``:hover``. 
+A ideia do projeto foi baseada em recriar a interface de login do usuário da nossa nostálgica famosa rede social **Orkut**, pelo **Figma**! Além da recriação de interface, desenvolvi as funcionalidades utilizando o famoso JavaScript Vanilla.
 
-#### Aqui estão algumas demonstrações:
+#### Funcionalidades:
 - Ao clicar em "Cadastre-se", um modal é aberto para cadastro do usuário;
 - Ao clicar em "Esqueceu a senha?", um modal é aberto  para que o usuário possa resgatar a senha;
 - Selecionando a opção "Lembrar senha", o icon check é marcado.
