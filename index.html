@@ -13,7 +13,7 @@
     <main>
         <section class="sectionLogo">
             <figure>
-                <img src="./src/img/orkut.png" alt="logo">
+                <img src="./src/assets/img/orkut.png" alt="logo">
             </figure>
             <h2>Entre com seu e-mail</h2>
             <p>E veja o que seus amigos estão fazendo</p>
@@ -22,17 +22,17 @@
         <section class="sectionLogin">
                 <div class="login">
                   <label for="email">Email</label>
-                  <input type="text" name="email" id="email" placeholder="******@gmail.com"/>
+                  <input class="input" type="text" name="email" id="email" placeholder="******@gmail.com"/>
                 </div>
     
                 <div class="login">
                   <label for="password">Senha</label>
-                  <input type="password" name="password" id="password" placeholder="*******************"/>
+                  <input class="input" type="password" name="password" id="password" placeholder="*******************"/>
                 </div>
     
                 <div class="morePassword">
                     <div class="rememberPassword">
-                        <img class="rememberPasswordCheck" id="imgCheck" src="./src/img/check.png" alt="check">
+                        <img class="rememberPasswordCheck" id="imgCheck" src="./src/assets/img/check.png" alt="check">
                         <p>Lembrar senha</p>
                     </div>
                     <a href="#" id="forgot">Esqueceu a senha?</a>
@@ -43,15 +43,15 @@
 
         <section class="moreOptions">
             <div class="or">
-                <img src="./src/img/line.png">
+                <img src="./src/assets/img/line.png">
                 <p>ou</p>
-                <img src="./src/img/line.png">
+                <img src="./src/assets/img/line.png">
             </div>
 
             <div>
-                <button class="loginAccount"><img src="./src/img/icons/linkedin-icon.png">Entrar com linkedin</button>
-                <button class="loginAccount"><img src="./src/img/icons/google-icon.png">Entrar com Google</button>
-                <button class="loginAccount"><img src="./src/img/icons/apple-icon.png">Entrar com Apple</button>
+                <button class="loginAccount"><img src="./src/assets/img/icons/linkedin-icon.png">Entrar com linkedin</button>
+                <button class="loginAccount"><img src="./src/assets/img/icons/google-icon.png">Entrar com Google</button>
+                <button class="loginAccount"><img src="./src/assets/img/icons/apple-icon.png">Entrar com Apple</button>
             </div>
 
             <div class="registration">
@@ -69,13 +69,13 @@
           </div>
   
             <label for="name">Nome</label>
-            <input id="name" name="name:" type="text" required="true" placeholder="Digite seu nome">
+            <input class="input" id="name" name="name:" type="text" required="true" placeholder="Digite seu nome">
             
-            <label for="email">E-mail</label>
-            <input id="email" name="email:" type="text" required="true" placeholder="Digite seu email">
+            <label for="emailCadastro">E-mail</label>
+            <input class="input" id="emailCadastro" name="email:" type="text" required="true" placeholder="Digite seu email">
             
-            <label for="password">Senha</label>
-            <input id="password" name="Senha:" type="password" required="true" placeholder="Digite sua senha">
+            <label for="passwordCadastro">Senha</label>
+            <input class="input" id="passwordCadastro" name="Password:" type="password" required="true" placeholder="Digite sua senha">
   
             <button class="btnEnter" type="submit" onclick="enter()">Cadastrar</button>
   
@@ -89,8 +89,8 @@
             <button id="closeModal"> x </button>
           </div>
   
-            <label class="labelForgot" for="password">Insira o seu email ou o seu telefone e enviaremos um código para você voltar a acessar a sua conta.</label>
-            <input id="password" name="email/cel:" type="text" required="true" placeholder="Digite seu email ou telefone">
+            <label class="labelForgot" for="passwordForgot">Insira o seu email ou o seu telefone e enviaremos um código para você voltar a acessar a sua conta.</label>
+            <input class="input" id="passwordForgot" name="email/cel:" type="text" required="true" placeholder="Digite seu email ou telefone">
   
             <button class="btnEnter" type="submit" onclick="enter()">Enviar código</button>
   

@@ -39,17 +39,9 @@ check.addEventListener("click", function(){
 
 
 function enter(){
-    const inputEmail = document.querySelectorAll("#email")
-    const inputPassword = document.querySelectorAll("#password")
-    const inputName = document.querySelector("#name")
+    const inputs = document.querySelectorAll(".input")
 
-    for(let i=0; i<inputEmail.length; i++){
-        inputEmail[i].value=""
+    for(let i=0; i<inputs.length; i++){
+        inputs[i].value=""
     }
-
-    for(i=0; i<inputPassword.length; i++){
-        inputPassword[i].value=""
-    }
-
-    inputName.value=""
 }
