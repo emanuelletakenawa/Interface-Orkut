@@ -1,5 +1,5 @@
 <h1 align="center">
-     <img src="src/img/orkut.png" alt="logo" width=200>
+     <img src="src/assets/img/orkut.png" alt="logo" width=200>
 </h1>
 
 <h1 align="center">
@@ -23,8 +23,8 @@ A ideia do projeto foi baseada em recriar a interface de login do usuário da no
 - Selecionando a opção "Lembrar senha", o icon check é marcado.
 
 <h1 align="center">
-<img src="https://i.ibb.co/SvP1kFD/Design-sem-nome-4.png" alt="modal-interface-orkut" > <br>
-<img src="https://i.ibb.co/wWH3N0M/Design-sem-nome-5.png" alt="check-interface-orkut" width=240px height=200px>
+<img src="https://thumbs2.imgbox.com/83/0e/t2B659Fm_t.png" alt="modal-interface-orkut" > 
+<img src="https://thumbs2.imgbox.com/ea/1d/94iOpiPW_t.png" alt="check-interface-orkut" width="300px">
 </h1>
 
 
