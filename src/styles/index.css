@@ -75,6 +75,7 @@ main{
     padding: 2px 1px;
     border-radius: var(--radius-default);
     margin-right:3px;
+    margin-left: 3px;
     cursor: pointer;
 }
 
@@ -86,10 +87,13 @@ main{
     cursor: pointer;
 }
 
-.morePassword > a{
+.morePassword > button{
+    border-bottom: 0.5px solid var(--pink-500);
+    line-height: 7px;
     color:var(--pink-500);
     font-size: 11px;
     margin-right: 4px;
+    cursor: pointer;
 }
 
 .btnEnter{
