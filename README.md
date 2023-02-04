@@ -24,7 +24,7 @@ A ideia do projeto foi baseada em recriar a interface de login do usuário da no
 
 <h1 align="center">
 <img src="https://thumbs2.imgbox.com/83/0e/t2B659Fm_t.png" alt="modal-interface-orkut" > 
-<img src="https://thumbs2.imgbox.com/ea/1d/94iOpiPW_t.png" alt="check-interface-orkut" >
+<img src="https://thumbs2.imgbox.com/ea/1d/94iOpiPW_t.png" alt="check-interface-orkut" width="300px">
 </h1>
 
 
