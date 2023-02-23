@@ -13,51 +13,54 @@
     <main>
         <section class="sectionLogo">
             <figure>
-                <img src="./src/assets/img/orkut.png" alt="logo">
+                <img src="./src/assets/img/orkut.png" alt="logo" class="logo">
             </figure>
             <h2>Entre com seu e-mail</h2>
             <p>E veja o que seus amigos estão fazendo</p>
         </section>
 
-        <section class="sectionLogin">
-                <div class="login">
-                  <label for="email">Email</label>
-                  <input class="input" type="text" name="email" id="email" placeholder="******@gmail.com"/>
-                </div>
-    
-                <div class="login">
-                  <label for="password">Senha</label>
-                  <input class="input" type="password" name="password" id="password" placeholder="*******************"/>
-                </div>
-    
-                <div class="morePassword">
-                    <div class="rememberPassword">
-                        <img class="rememberPasswordCheck" id="imgCheck" src="./src/assets/img/check.png" alt="check">
-                        <p>Lembrar senha</p>
-                    </div>
-                    <button id="forgot">Esqueceu a senha?</button>
-                </div>
-                
-                <button class="btnEnter" onclick="enter()">Entrar</button>
-        </section>
+        <div class="containerLogin">
+          <section class="sectionLogin">
+                  <div class="login">
+                    <label for="email">Email</label>
+                    <input class="input" type="text" name="email" id="email" placeholder="******@gmail.com"/>
+                  </div>
+      
+                  <div class="login">
+                    <label for="password">Senha</label>
+                    <input class="input" type="password" name="password" id="password" placeholder="*******************"/>
+                  </div>
+      
+                  <div class="morePassword">
+                      <div class="rememberPassword">
+                          <img class="rememberPasswordCheck" id="imgCheck" src="./src/assets/img/check.png" alt="check">
+                          <p>Lembrar senha</p>
+                      </div>
+                      <button id="forgot">Esqueceu a senha?</button>
+                  </div>
+                  
+                  <button class="btnEnter" onclick="enter()">Entrar</button>
+          </section>
+  
+          <section class="moreOptions">
+              <div class="or">
+                  <img src="./src/assets/img/line.png">
+                  <p>ou</p>
+                  <img src="./src/assets/img/line.png">
+              </div>
+  
+              <div>
+                  <button class="loginAccount"><img src="./src/assets/img/icons/linkedin-icon.png">Entrar com linkedin</button>
+                  <button class="loginAccount"><img src="./src/assets/img/icons/google-icon.png">Entrar com Google</button>
+                  <button class="loginAccount"><img src="./src/assets/img/icons/apple-icon.png">Entrar com Apple</button>
+              </div>
+  
+              <div class="registration">
+                  <p>Ainda não tem uma conta? <button class="btnRegistration" id="btnCadastrar">Cadastre-se</button> </p>
+              </div>
+          </section>
+        </div>
 
-        <section class="moreOptions">
-            <div class="or">
-                <img src="./src/assets/img/line.png">
-                <p>ou</p>
-                <img src="./src/assets/img/line.png">
-            </div>
-
-            <div>
-                <button class="loginAccount"><img src="./src/assets/img/icons/linkedin-icon.png">Entrar com linkedin</button>
-                <button class="loginAccount"><img src="./src/assets/img/icons/google-icon.png">Entrar com Google</button>
-                <button class="loginAccount"><img src="./src/assets/img/icons/apple-icon.png">Entrar com Apple</button>
-            </div>
-
-            <div class="registration">
-                <p>Ainda não tem uma conta? <button class="btnRegistration" id="btnCadastrar">Cadastre-se</button> </p>
-            </div>
-        </section>
 
     </main>
 
@@ -78,7 +81,6 @@
             <input class="input" id="passwordCadastro" name="Password:" type="password" required="true" placeholder="Digite sua senha">
   
             <button class="btnEnter" type="submit" onclick="enter()">Cadastrar</button>
-  
         </div>  
       </dialog>
 
