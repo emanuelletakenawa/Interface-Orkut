@@ -25,7 +25,7 @@ O layout foi criado nos conceitos de mobile first e está responsivo para todos 
 - Selecionando a opção "Lembrar senha", o icon check é marcado.
 
 <h1 align="center">
-<img src="https://i.ibb.co/cc6Q6z5/Design-sem-nome-8.png" alt="modal-interface-orkut" > 
+<img src="https://i.ibb.co/pLq5QZM/Design-sem-nome-11.png" alt="modal-interface-orkut" > 
 </h1>
 
 #### Interface no desktop:
