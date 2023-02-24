@@ -17,7 +17,7 @@
 ## 📜Sobre
 A ideia do projeto foi baseada em recriar a interface de login do usuário da nossa nostálgica famosa rede social **Orkut**, pelo **Figma**! Além da recriação de interface, desenvolvi as funcionalidades utilizando o famoso JavaScript Vanilla.
 
-O layout foi criado nos conceitos de mobile first e está responsivo para todos os tamanhos de tela.
+O layout foi criado nos conceitos de mobile first e está disponível para todos os tamanhos de tela!
 
 #### Funcionalidades:
 - Ao clicar em "Cadastre-se", um modal é aberto para cadastro do usuário;
