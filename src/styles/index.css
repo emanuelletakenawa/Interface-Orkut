@@ -16,12 +16,12 @@ main{
     flex-direction: column;
 }
 
-.sectionLogo > h2{
+.sectionLogo > div > h2{
     color:var(--gray-500);
     font-size: 1.4rem;
 }
 
-.sectionLogo > p{
+.sectionLogo > div > p{
     margin-bottom: 1rem ;
     margin-top: -0.6rem;
     font-size: 0.8rem;
@@ -240,20 +240,38 @@ dialog{
     main{
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
+        padding: 0;
     }
 
     .logo{
-        width: 40%;
+        width: 70%;
+        max-width: 16rem;
+        filter: brightness(15);
     }
 
     .sectionLogo{
-        width: 40%;
-        max-width: 40rem;
+        width: 50%;
+        height: 100vh;
+        background-color: var(--pink-500);
+    }
+
+    .sectionLogo > div {
+        width: 50%;
+        margin: auto;
+    }
+
+    .sectionLogo > div > h2 {
+        color: var(--blue-100);
+    }
+
+    .sectionLogo > div > p {
+        color: var(--blue-100);
     }
 
     .containerLogin{
         width: 50%;
+        margin: auto;
         max-width: 40rem;
     }
 
