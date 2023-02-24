@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="https://i.ibb.co/V9Bw04L/Captura-de-tela-20230129-215635.png" alt="Captura-de-tela-20230129-215635" />
+    <img src="https://i.ibb.co/gzMvsRz/Design-sem-nome-10.png" alt="Captura-de-tela-20230129-215635"/>
 </h1>
 
 
@@ -25,10 +25,14 @@ O layout foi criado nos conceitos de mobile first e está responsivo para todos 
 - Selecionando a opção "Lembrar senha", o icon check é marcado.
 
 <h1 align="center">
-<img src="https://thumbs2.imgbox.com/83/0e/t2B659Fm_t.png" alt="modal-interface-orkut" > 
-<img src="https://thumbs2.imgbox.com/ea/1d/94iOpiPW_t.png" alt="check-interface-orkut" width="300px">
+<img src="https://i.ibb.co/cc6Q6z5/Design-sem-nome-8.png" alt="modal-interface-orkut" > 
 </h1>
 
+#### Interface no desktop:
+<h1 align="center">
+<img src="https://i.ibb.co/jDRCwRH/Captura-de-tela-20230223-222610.png" alt="interface-orkut" width=500> 
+<img src="https://i.ibb.co/SJQsh29/Design-sem-nome-9.png" alt="interface-orkut" width=500>
+</h1>
 
 <hr>
 
@@ -36,12 +40,6 @@ O layout foi criado nos conceitos de mobile first e está responsivo para todos 
 - HTML5
 - CSS
 - JAVASCRIPT
-
-<hr>
-
-## 🖇️Para acessar o layout no Figma
-
-[Clique aqui](https://www.figma.com/file/Xosmfdpq1fCxPVYj8gCdBe/Untitled?node-id=0%3A1&t=xD51d0FlUbofKfsI-1) 
 
 <hr>
 
