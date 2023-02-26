@@ -43,6 +43,6 @@ O layout foi criado nos conceitos de mobile first e está disponível para todos
 
 <hr>
 
-## 💗Autora
+## Feito com 💗 por :
 - [@emanuelletakenawa](https://github.com/emanuelletakenawa)
 - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuelle-takenawa-32b6a1257)
