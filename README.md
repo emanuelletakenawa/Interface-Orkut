@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="https://i.ibb.co/gzMvsRz/Design-sem-nome-10.png" alt="Captura-de-tela-20230129-215635"/>
+<a href="https://ibb.co/JjVgsNS"><img src="https://i.ibb.co/CKgDHqS/Design-sem-nome-10.png" alt="Orkut"></a>
 </h1>
 
 
@@ -31,7 +31,7 @@ O layout foi criado nos conceitos de mobile first e está disponível para todos
 #### Interface no desktop:
 <h1 align="center">
 <img src="https://i.ibb.co/jDRCwRH/Captura-de-tela-20230223-222610.png" alt="interface-orkut" width=500> 
-<img src="https://i.ibb.co/SJQsh29/Design-sem-nome-9.png" alt="interface-orkut" width=500>
+     <a href="https://imgbb.com/"><img src="https://i.ibb.co/xHW99xW/68747470733a2f2f692e6962622e636f2f534a51736832392f44657369676e2d73656d2d6e6f6d652d392e706e67.png" alt="68747470733a2f2f692e6962622e636f2f534a51736832392f44657369676e2d73656d2d6e6f6d652d392e706e67" border="0" width=500/></a>
 </h1>
 
 <hr>
